@@ -10,7 +10,7 @@ from langchain.chains import ConversationalRetrievalChain
 from htmlTemplates import css, bot_template, user_template
 import os
 ## from langchain.llms import HuggingFaceHub
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ['OPENAI_API_KEY'] = st.secrets['OPENAI_API_KEY']
 def get_pdf_text(pdf_docs):
     text = ""
     for pdf in pdf_docs:
