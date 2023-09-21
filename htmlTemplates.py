@@ -28,7 +28,7 @@ css = '''
 bot_template = '''
 <div class="chat-message bot">
     <div class="avatar">
-        <img src="https://static.vecteezy.com/system/resources/previews/007/742/912/non_2x/circle-green-dots-isolated-on-the-black-background-geometric-art-design-element-for-frame-logo-tattoo-web-pages-prints-posters-template-abstract-backgrounds-optical-illusion-shape-vector.jpg" style="max-height: 78px; max-width: 78px; border-radius: 50%; object-fit: cover;">
+        <img src="https://global.discourse-cdn.com/business5/uploads/expo/original/3X/4/6/46bedbd705a0872a19064f7e58b7904633031a3e.png" style="max-height: 78px; max-width: 78px; border-radius: 50%; object-fit: cover;">
     </div>
     <div class="message">{{MSG}}</div>
 </div>
@@ -37,7 +37,7 @@ bot_template = '''
 user_template = '''
 <div class="chat-message user">
     <div class="avatar">
-        <img src="https://global.discourse-cdn.com/business5/uploads/expo/original/3X/4/6/46bedbd705a0872a19064f7e58b7904633031a3e.png">
+        <img src="https://static.vecteezy.com/system/resources/previews/007/742/912/non_2x/circle-green-dots-isolated-on-the-black-background-geometric-art-design-element-for-frame-logo-tattoo-web-pages-prints-posters-template-abstract-backgrounds-optical-illusion-shape-vector.jpg">
     </div>    
     <div class="message">{{MSG}}</div>
 </div>
