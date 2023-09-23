@@ -102,12 +102,7 @@ def main():
                 # create conversation chain
                 st.session_state.conversation = get_conversation_chain(
                     vectorstore)
-    hide_st_style = """
-            <style>
-            footer {visibility: hidden;}
-            </style>
-            """
-    st.markdown(hide_st_style, unsafe_allow_html=True)
+    
 
 
 if __name__ == '__main__':
