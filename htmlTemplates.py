@@ -23,6 +23,8 @@ css = '''
   padding: 0 1.5rem;
   color: #fff;
 }
+footer {visibility: hidden;}
+</style>
 '''
 
 bot_template = '''
